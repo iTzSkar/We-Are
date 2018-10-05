@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const moment = require('moment');
 const prefix = '.'
 client.on('ready', () => {
-  client.user.setGame('Destiny Server','https://www.twitch.tv/peery13');
+  client.user.setGame('We Are Server','https://www.twitch.tv/peery13');
   console.log(`Logged in as ${client.user.tag}!`);
  
 });
