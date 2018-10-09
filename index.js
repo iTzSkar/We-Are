@@ -56,7 +56,7 @@ msg.delete();
 });
 
 
-const developers = ["485579083649122304"]
+const developers = ["485579083649122304,465649311871533066"]
 const adminprefix = "-";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
